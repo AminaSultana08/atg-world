@@ -3,28 +3,33 @@ import "./styles/custom.css";
 
 import logo from "../../assets/images/logo.jpg";
 import { Container } from "react-bootstrap";
+
 const Navbar = () => {
   return (
     <Container>
-      <nav className="navbar d-flex justify-content-between align-items-center p-2 navbar-expand-lg navbar-light   bg-light">
-        <div className=" container-fluid">
+      <nav className="navbar d-flex justify-content-between align-items-center p-2 navbar-expand-lg navbar-light bg-light">
+        <div className="container-fluid">
           {/* Navbar Brand */}
-          <a className="navbar-brand " href="/">
-            <img src={logo} className="logo" alt="" />
+          <a className="navbar-brand" href="/">
+            <img src={logo} className="logo" alt="Logo" />
           </a>
 
           {/* Search Input and Button */}
-          <form className="d-flex ms-3">
-            <button className="btn search-icon" type="submit">
-              <IoIosSearch />
-            </button>
-            <input
-              className="form-control me-2 search"
-              type="search"
-              placeholder="Search for your favorite groups in ATG"
-              aria-label="Search"
-            />
-          </form>
+          <div className="search-container position-relative mx-auto">
+            <form className="d-flex">
+              <IoIosSearch
+                className="position-absolute "
+                style={{ top: "35%", left: "3%" }}
+              />
+
+              <input
+                className="form-control search"
+                type="search"
+                placeholder="Search for your favorite groups in ATG"
+                aria-label="Search"
+              />
+            </form>
+          </div>
 
           {/* Navbar Toggler */}
           <button
@@ -40,8 +45,11 @@ const Navbar = () => {
           </button>
 
           {/* Navbar Links */}
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <div
+            className="collapse navbar-collapse flex-grow-0"
+            id="navbarSupportedContent"
+          >
+            <ul className="navbar-nav mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/">
                   Home
@@ -57,7 +65,7 @@ const Navbar = () => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Create Account.
+                  Create Account.{" "}
                   <span className="text-primary">It's free!</span>
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -66,7 +74,6 @@ const Navbar = () => {
                       Action
                     </a>
                   </li>
-
                   <li>
                     <hr className="dropdown-divider" />
                   </li>

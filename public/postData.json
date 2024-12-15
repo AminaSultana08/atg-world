@@ -1,54 +1,52 @@
 [
   {
     "id": 1,
-    "image": "https://via.placeholder.com/600x300",
-    "topicHeader": "Exploring the Basics of React.js",
-    "viewsCount": 1450,
-    "typeOfPost": "Article",
-    "location": null,
-    "jobCompanyName": null,
-    "user": {
-      "userImage": "https://via.placeholder.com/50",
-      "userName": "John Doe"
-    }
+    "image": "https://i.ibb.co.com/Gtdk35L/post1.png",
+    "type": "article",
+    "title": "What if famous brands had regular fonts? Meet RegulaBrands!",
+    "description": "I've worked in UX for the better part of a decade. From now on, I plan...",
+
+    "user": "John Doe",
+    "views": 1400,
+
+    "userImage": "https://i.ibb.co.com/Px9SBZ5/austin-human-Ec7c-HN7ofi0-unsplash.jpg"
   },
   {
     "id": 2,
-    "image": "https://via.placeholder.com/600x300",
-    "topicHeader": "5 Ways Education is Evolving in 2024",
-    "viewsCount": 1200,
-    "typeOfPost": "Education",
-    "location": null,
-    "jobCompanyName": null,
-    "user": {
-      "userImage": "https://via.placeholder.com/50",
-      "userName": "Sarah Khan"
-    }
+    "image": "https://i.ibb.co.com/6nV7tx1/post2.png",
+    "type": "education",
+    "title": "Tax Benefits for Investment under National Pension Scheme launched by Government",
+    "description": "I've worked in UX for the better part of a decade. From now on, I plan...",
+
+    "userImage": "https://i.ibb.co.com/CnJyqJb/freestocks-Sdg-Ruca-Jh-Oo-unsplash.jpg",
+    "user": "Sarah Khan",
+    "views": 1400
   },
   {
     "id": 3,
-    "image": "https://via.placeholder.com/600x300",
-    "topicHeader": "Upcoming Tech Meet-Up in San Francisco",
-    "viewsCount": 960,
-    "typeOfPost": "Meet Up",
-    "location": "San Francisco, CA",
-    "jobCompanyName": null,
-    "user": {
-      "userImage": "https://via.placeholder.com/50",
-      "userName": "Emily Taylor"
-    }
+    "image": "https://i.ibb.co.com/2cxKCfn/post3.png",
+    "type": "meetup",
+    "title": "Finance & Investment Elite Social Mixer @Lujiazui",
+    "description": "Finance and investment opportunities await you.",
+    "date": "Fri, 12 Oct, 2018",
+    "location": "Ahmedabad, India",
+
+    "userImage": "https://i.ibb.co.com/2dkzk6N/young-beautiful-girl-posing-black-leather-jacket-park.jpg",
+    "user": "Emily Taylor",
+    "views": 1400,
+    "buttonText": "Visit Website"
   },
   {
     "id": 4,
-    "image": "https://via.placeholder.com/600x300",
-    "topicHeader": "Front-End Developer Opening at TechCorp",
-    "viewsCount": 2100,
-    "typeOfPost": "Job",
-    "location": "New York, NY",
-    "jobCompanyName": "TechCorp",
-    "user": {
-      "userImage": "https://via.placeholder.com/50",
-      "userName": "Michael Smith"
-    }
+    "image": "https://i.ibb.co.com/2cxKCfn/post3.png",
+    "type": "job",
+    "title": "Software Developer",
+    "description": "Innovaccer Analytics Private Ltd. • Noida, India",
+    "company": "Innovaccer Analytics Private Ltd.",
+
+    "userImage": "https://i.ibb.co.com/VW8qxC6/elijah-hiett-v-AVGd-V1okl-Q-unsplash.jpg",
+    "user": "Michael Smith",
+    "views": 1400,
+    "buttonText": "Apply on TimesJobs"
   }
 ]

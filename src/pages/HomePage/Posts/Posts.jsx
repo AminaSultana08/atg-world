@@ -1,9 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { Card, Button, Container } from "react-bootstrap";
-import { FaShareAlt } from "react-icons/fa";
+import { FaPen, FaShareAlt } from "react-icons/fa";
 import { IoMdArrowDropdown } from "react-icons/io";
-import { MdOutlineGroupAdd } from "react-icons/md";
+import {
+  MdOutlineGroupAdd,
+  MdOutlineLocationOff,
+  MdOutlineLocationOn,
+} from "react-icons/md";
 import PostCard from "./PostCard";
+import { AiOutlineExclamationCircle } from "react-icons/ai";
 
 const Post = () => {
   const [posts, setPosts] = useState([]);
@@ -19,7 +24,7 @@ const Post = () => {
     <Container>
       <Card className="mx-auto" style={{ maxWidth: "1400px" }}>
         {/* Navbar */}
-        <div className="  border-bottom d-flex   justify-content-between ">
+        <div className="   d-flex   justify-content-between ">
           <nav className="d-flex gap-3 px-4 py-2">
             {navItems.map((item, index) => (
               <button
@@ -49,10 +54,29 @@ const Post = () => {
         </div>
 
         {/* Card Content */}
-        <div>
-          {posts.map((post) => (
-            <PostCard key={post.id} post={post}></PostCard>
-          ))}
+        <div className="d-flex d-flex align-content-center mt-5 justify-content-between gap-5 ">
+          <div className="col">
+            {posts.map((post, index) => (
+              <div key={index} className="">
+                <PostCard {...post} />
+              </div>
+            ))}
+          </div>
+          <div>
+            <div className="location d-flex align-content-center justify-content-between gap-2">
+              <h1 className=" location d-flex align-content-center justify-content-center gap-2 text-sm">
+                <MdOutlineLocationOn /> Noida, India
+              </h1>
+              <p className="pen">
+                <FaPen />
+              </p>
+            </div>
+            <hr />
+            <p className="p d-flex align-content-center justify-content-center gap-2">
+              <AiOutlineExclamationCircle /> Your location will help us serve
+              better and extend a personalised experience.
+            </p>
+          </div>
         </div>
       </Card>
     </Container>
