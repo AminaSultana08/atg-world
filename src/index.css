@@ -1,0 +1,9 @@
+.div {
+  width: 1440px;
+  height: 72px;
+  gap: 0px;
+  opacity: 0px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,26 @@
+.text-primary {
+  color: blue !important;
+  font-weight: bold;
+}
+
+.search {
+  border-radius: 25px;
+
+  min-width: 380px;
+  padding-left: 35px;
+}
+.search-icon {
+  margin-right: -40px;
+  position: relative;
+}
+.form {
+  align-items: center;
+}
+.logo {
+  width: 162.57px;
+  height: 24px;
+  top: 24px;
+  left: 72px;
+  gap: 0px;
+  opacity: 0px;
+}

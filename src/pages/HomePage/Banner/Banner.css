@@ -1,0 +1,40 @@
+.img {
+  width: 1440px;
+  height: 540px;
+  top: 72px;
+  gap: 0px;
+  opacity: 0px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.45) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+}
+.h1 {
+  width: 378px;
+  height: 47px;
+  top: 358px;
+  left: 200px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: IBM Plex Sans;
+  font-size: 36px;
+  line-height: 46.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.p {
+  width: 327px;
+  height: 23px;
+  top: 409px;
+  left: 200px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: IBM Plex Sans;
+  font-size: 18px;
+  line-height: 23.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
