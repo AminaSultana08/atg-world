@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "image": "https://via.placeholder.com/600x300",
+    "topicHeader": "Exploring the Basics of React.js",
+    "viewsCount": 1450,
+    "typeOfPost": "Article",
+    "location": null,
+    "jobCompanyName": null,
+    "user": {
+      "userImage": "https://via.placeholder.com/50",
+      "userName": "John Doe"
+    }
+  },
+  {
+    "id": 2,
+    "image": "https://via.placeholder.com/600x300",
+    "topicHeader": "5 Ways Education is Evolving in 2024",
+    "viewsCount": 1200,
+    "typeOfPost": "Education",
+    "location": null,
+    "jobCompanyName": null,
+    "user": {
+      "userImage": "https://via.placeholder.com/50",
+      "userName": "Sarah Khan"
+    }
+  },
+  {
+    "id": 3,
+    "image": "https://via.placeholder.com/600x300",
+    "topicHeader": "Upcoming Tech Meet-Up in San Francisco",
+    "viewsCount": 960,
+    "typeOfPost": "Meet Up",
+    "location": "San Francisco, CA",
+    "jobCompanyName": null,
+    "user": {
+      "userImage": "https://via.placeholder.com/50",
+      "userName": "Emily Taylor"
+    }
+  },
+  {
+    "id": 4,
+    "image": "https://via.placeholder.com/600x300",
+    "topicHeader": "Front-End Developer Opening at TechCorp",
+    "viewsCount": 2100,
+    "typeOfPost": "Job",
+    "location": "New York, NY",
+    "jobCompanyName": "TechCorp",
+    "user": {
+      "userImage": "https://via.placeholder.com/50",
+      "userName": "Michael Smith"
+    }
+  }
+]
